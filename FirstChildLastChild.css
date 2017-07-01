@@ -1,0 +1,63 @@
+body {
+	font-family: sans-serif;
+	color: #616161;
+	padding: 40px 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
+	margin: auto;
+	width: 50%;
+	list-style: none;
+}
+
+li{
+	padding: 15px 10px;
+	border-bottom: 1px dotted #40918c;
+}
+
+/* Structural Psuedo Classes --------- */
+
+li:first-child {
+	background: #52bab3;
+	color: white;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+span:only-child {
+	color: #52bab3;
+	font-size: 1.5em;
+}
+
+li:empty {
+	background-color: tomato;
+	}
+
+/* :nth-child Pseudo-classes----------- */
+
+li:nth-child(even){
+	background: lightblue;
+	color: white;
+}
+
+li:nth-child(9){
+	font-weight:bold;
+	font-style: italic;
+	color: red;
+}
+
+li:nth-child(2n+3){
+	color: blue;
+	font-size: 12px;
+}
+
+li:nth-child(-n+3){
+	text-align: center;
+}
+
